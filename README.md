@@ -40,7 +40,8 @@ you use enough points.
 it. You might need a combination of the scale tool and the resize canvas tool.)
 3. Use the measurement tools from your image editor to manually create a list of
 points for the perimeter of the shape you want.
-4. Save the path into the OpenSCAD file from commit d24344 in this repo.
+4. Save the path into the OpenSCAD file from the
+[manual-path](https://github.com/mkasberg/3d-logo/tree/manual-path) branch.
 
 ----
 
