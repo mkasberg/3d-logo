@@ -3,6 +3,10 @@
 This [OpenSCAD](https://openscad.org/) file can be used to print **any** logo in
 3D. This makes great wall art!
 
+![3D printed Strava logo](strava-logo-print.jpg)
+
+![3D printed GitHub logo](github-logo-print.png)
+
 I've included the GitHub logo as a sample. The copyright for the GitHub logo
 belongs to GitHub, but this usage is allowed by their [logo usage
 guidelines](https://github.com/logos).
