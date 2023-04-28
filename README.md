@@ -11,15 +11,14 @@ guidelines](https://github.com/logos).
 
 1. Download an SVG of the logo you want to use. <github-mark.svg> is an example
 SVG of the GitHub logo.
-2. Use [PathToPoints](https://shinao.github.io/PathToPoints/) (or any similar
-tool) to extract an array of points from the SVG. You may need to use a text
-editor to adjust the format. <github-logo-points.txt> is an example of what you
-need.
-3. Copy and paste the points into the <3D-Logo.scad> file. The format is an
-array of 2D points, where each point is itself an array containing an [x, y]
-pair.
-4. Adjust other params (height, thickness, hanger hole) as desired.
-5. Use [OpenSCAD](https://openscad.org/) to produce an STL file.
+2. Edit the <3D-Logo.scad> file to replace the `github-mark.svg` filename with
+the filename of the logo you want to use.
+3. Adjust the `svg_size` parameter to match the maximum width or height of your
+SVG logo (which you can typically find by opening the SVG file in a text
+editor).
+4. Adjust the hanger hole center position as needed for your logo.
+5. Adjust the output height and thickness as desired.
+6. Use [OpenSCAD](https://openscad.org/) to produce an STL file.
 
 ## Printer Settings
 
@@ -32,15 +31,16 @@ pair.
 
 **Can't find an SVG with a good path?**
 
-If you're finding it difficult to extract a path from an SVG, you can create the
-path manually. This works very well for geometric logos but can work for any
-logo if you use enough points.
+If you're finding it difficult to work with an SVG, you can create the path
+manually. This works very well for geometric logos but can work for any logo if
+you use enough points.
 
 1. Import the logo into an image editor like the [GIMP](https://www.gimp.org/).
 2. Adjust the canvas size to 100x100. (Avoid distorting the logo while scaling
 it. You might need a combination of the scale tool and the resize canvas tool.)
 3. Use the measurement tools from your image editor to manually create a list of
 points for the perimeter of the shape you want.
+4. Save the path into the OpenSCAD file from commit d24344 in this repo.
 
 ----
 
