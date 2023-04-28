@@ -9,10 +9,10 @@ guidelines](https://github.com/logos).
 
 ## Customization Instructions
 
-1. Download an SVG of the logo you want to use. <github-mark.svg> is an example
-SVG of the GitHub logo.
-2. Edit the <3D-Logo.scad> file to replace the `github-mark.svg` filename with
-the filename of the logo you want to use.
+1. Download an SVG of the logo you want to use.
+[github-mark.svg](github-mark.svg) is an example SVG of the GitHub logo.
+2. Edit the [3D-Logo.scad](3D-Logo.scad) file to replace the `github-mark.svg`
+filename with the filename of the logo you want to use.
 3. Adjust the `svg_size` parameter to match the maximum width or height of your
 SVG logo (which you can typically find by opening the SVG file in a text
 editor).
